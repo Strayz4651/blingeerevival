@@ -1,2 +1,86 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+
+<!--Delar upp sidan i två delar-->
+<main>
+  <div>
+    
+    <h1>Max Borgenstål </h1>
+    <h2>Här har jag samlat min uppgifter jag gjort i samband med webbutveckling i årskurs 2 på Maja Beskowgymnasiet!</h2>
+    <h3>Inspirerade citat för min webbutvecklingsresa: Jag gillar spaghetti </h3>
+    <!--Under denna kommer vi lägga till fler element-->
+
+  </div>
+    <!--Här kommer vi lägga till en bild senare i uppgiften 1.2.4 Extra styling-->  
+
+</main>
+
+<style>
+    
+  
+    
+  main{
+    /*Styling för att dela upp sidan i två delar. */
+    /*Vi kommer gå igenom detta i detalj senare*/
+    margin: auto;
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    overflow: hidden;
+  }
+  div{
+    /*Styling för att centrera texten i behållaren*/
+    margin: auto;
+  }
+h1{
+    color:rgb(255, 71, 218);
+    background-color: rgb(81, 1, 65);
+}
+                
+
+  /* Vi skiljer elementen med ett kommatecken(,) för att ge möjligheten till att ge flera element samma styling*/
+h1, h2, h3, p {
+  display: inline;
+  /*Ger utrymme mellan element*/
+  margin: 10px;
+}
+        
+
+h2{
+    color: rgb(162, 0, 143);
+}
+h3{
+    color: #500244;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#inspo{
+    font-family: courier;
+    font-size: 160%;
+}
+
+span{
+    color: green;
+}
+
+
+    
+
+  </style>
+    
+
+
+  
+<p id="inspo">
+    "The only way to learn a new programming language is by writing programs in it." - <strong>Dennis Ritchie</strong>, creator of the C programming language.
+</p>
+
+<p style="background-color:pink">
+    "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - <span>Patrick McKenzie, software engineer and entrepreneur</span>.
+</p>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FF69B4" fill-opacity="" d="M0,32L9.6,37.3C19.2,43,38,53,58,85.3C76.8,117,96,171,115,160C134.4,149,154,75,173,80C192,85,211,171,230,197.3C249.6,224,269,192,288,186.7C307.2,181,326,203,346,181.3C364.8,160,384,96,403,74.7C422.4,53,442,75,461,101.3C480,128,499,160,518,160C537.6,160,557,128,576,101.3C595.2,75,614,53,634,85.3C652.8,117,672,203,691,213.3C710.4,224,730,160,749,122.7C768,85,787,75,806,106.7C825.6,139,845,213,864,234.7C883.2,256,902,224,922,181.3C940.8,139,960,85,979,85.3C998.4,85,1018,139,1037,144C1056,149,1075,107,1094,106.7C1113.6,107,1133,149,1152,165.3C1171.2,181,1190,171,1210,165.3C1228.8,160,1248,160,1267,160C1286.4,160,1306,160,1325,186.7C1344,213,1363,267,1382,272C1401.6,277,1421,235,1430,213.3L1440,192L1440,320L1430.4,320C1420.8,320,1402,320,1382,320C1363.2,320,1344,320,1325,320C1305.6,320,1286,320,1267,320C1248,320,1229,320,1210,320C1190.4,320,1171,320,1152,320C1132.8,320,1114,320,1094,320C1075.2,320,1056,320,1037,320C1017.6,320,998,320,979,320C960,320,941,320,922,320C902.4,320,883,320,864,320C844.8,320,826,320,806,320C787.2,320,768,320,749,320C729.6,320,710,320,691,320C672,320,653,320,634,320C614.4,320,595,320,576,320C556.8,320,538,320,518,320C499.2,320,480,320,461,320C441.6,320,422,320,403,320C384,320,365,320,346,320C326.4,320,307,320,288,320C268.8,320,250,320,230,320C211.2,320,192,320,173,320C153.6,320,134,320,115,320C96,320,77,320,58,320C38.4,320,19,320,10,320L0,320Z"></path></svg>
+
+
+
+	
+
