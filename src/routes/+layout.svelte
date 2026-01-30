@@ -5,12 +5,13 @@
   import { base } from '$app/paths';
 </script>
   
-	<nav><a href ="{base}/login">Login</a></nav>
-  <nav><a href ="{base}/register">Register</a></nav>
-  <nav><a href ="{base}/photoapp">Photoapp</a></nav>
-  <nav><a href ="{base}/shoppinglist">Shopping list</a></nav>
-  <nav><a href ="{base}/memory">Memory</a></nav>
-  <nav><a href ="{base}/chat">Chat</a></nav>
+	<nav><a href ="{base}/login">Login</a>
+    <a href ="{base}/register">Register</a>
+    <a href ="{base}/photoapp">Photoapp</a>
+    <a href ="{base}/shoppinglist">Shopping list</a>
+    <a href ="{base}/memory">Memory</a>
+    <a href ="{base}/chat">Chat</a>
+  </nav>
 
 
 <svelte:head>
